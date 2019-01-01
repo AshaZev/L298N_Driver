@@ -7,7 +7,7 @@
 #include "Arduino.h"
 #include "RC_Receiver.h"
 
-L298N_Driver::H_Bridge(int in1, int in2, int en)
+L298N_Driver::L298N_Driver(int in1, int in2, int en)
 {
 	input1 = in1;
 	input2 = in2;
