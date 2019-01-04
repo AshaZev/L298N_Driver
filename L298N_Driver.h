@@ -1,7 +1,7 @@
 /*
 # H_Bridge.h - Library for interfacing with the L298N's h bridge.
 # Created by AshaZev, 2018/04/09.
-# Last updated, 2018/12/24.
+# Last updated, 2019/01/04.
 */
 
 #ifndef L298N_Driver_h
@@ -24,7 +24,7 @@ class L298N_Driver
 	void reverse();
 	void brake();	//posible duty modulation
 	void neutral();
-	void setDuty(float duty);	//accepts vlues from 0.0f to 1.0f
+	void setDuty(int duty);	//accepts vlues from 0.0f to 1.0f
 
 };
 
